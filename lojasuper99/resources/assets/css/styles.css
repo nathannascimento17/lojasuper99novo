@@ -1,0 +1,82 @@
+section {
+    margin-top: 25px;
+}
+
+nav {
+    height: 70px;
+    box-shadow: 0.2em 0.1em 1.2em #FF0000;
+}
+
+.nav-fonte {
+    font-size: 2.65rem;
+    color: yellow;
+    font-family: Stencil Std, fantasy;
+    text-shadow: 0.2em 0.1em 0.2em #FF0000;
+}
+
+.navbar-brand {
+    font-size: 4.95rem;
+    color: yellow;
+    font-family: Stencil Std, fantasy;
+    text-shadow: 0.2em 0.1em 0.2em #FF0000;
+    margin-left: 45px;
+}
+
+.dropdown-button {
+    font-size: 1.55rem;
+    color: yellow;
+    font-family: Stencil Std, fantasy;
+    text-shadow: 0.2em 0.1em 0.2em #FF0000;
+}
+
+footer {
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+#container-produtos-index {
+    margin-top: 75px;
+}
+
+#container-login {
+    margin-top: 95px;
+}
+
+.list-group a {
+    background: #4d94ff;
+    color: yellow;
+    font-family: Stencil Std, fantasy;
+    font-size: 2.00rem;
+    text-shadow: 0.2em 0.1em 0.2em #FF0000;
+}
+
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+
+/* Bootstrap 3 text input with search icon */
+
+.has-search .form-control-feedback {
+    right: initial;
+    left: 0;
+    color: #ccc;
+}
+
+.has-search .form-control {
+    padding-right: 12px;
+    padding-left: 34px;
+}
+
+.col-lg-2 {
+    margin-top: -99px;
+}
