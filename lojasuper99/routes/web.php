@@ -14,7 +14,11 @@
 Auth::routes(); 
 
 Route::get('/', 'HomeController@index')->name('index');
-Route::get('/cadproduto', 'ProdutoController@cadProduto')->name('produto.cadproduto');
+Route::get('/painelAdmin', 'ProdutoController@painelAdmin')->name('produto.painelAdmin');
+Route::get('/utensiliosDomesticos', 'HomeController@filtrarProduto')->name('produto.utensilios');
+Route::get('/painelAdmin/cadproduto', 'ProdutoController@cadProduto')->name('produto.cadproduto');
+Route::get('/painelAdmin/edit/{id}','ProdutoController@edit')->name('produto.edit');
+Route::put('/painelAdmin/update/{produto}','ProdutoController@update')->name('produto.update');
 $this->post('new-product','ProdutoController@cadastrarProduto');
 Route::get('/produto/{id}', 'HomeController@produto')->name('produto');
 Route::get('/carrinho', 'CarrinhoController@index')->name('carrinho.index');

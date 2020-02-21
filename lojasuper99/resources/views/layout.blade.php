@@ -55,11 +55,13 @@
                                     Minhas Compras
                                 </a>
                             </li>
+                            @if(Auth::user()->id === 1)
                             <li>
-                                <a href="{{ route('carrinho.compras') }}">
-                                    Cadastrar Produto
+                                <a href="{{ route('produto.painelAdmin') }}">
+                                    Painel Administrativo
                                 </a>
                             </li>
+                            @endif
 
                         </ul>
                     </li>

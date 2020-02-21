@@ -51,7 +51,7 @@
 
     #tab-descricao {
         margin-top: 90px;
-        font-size: 3.00rem;
+        font-size: 2.00rem;
     }
 </style>
 
